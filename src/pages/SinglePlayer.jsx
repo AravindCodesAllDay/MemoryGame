@@ -163,7 +163,7 @@ function SinglePlayer() {
           <path d="M5 12l14 0" />
         </svg>
       </button>
-      <div className="w-screen h-screen bg-custom-img-1 bg-no-repeat bg-cover bg-center flex justify-center items-center p-3 bg-blue-50">
+      <div className="w-screen h-screen bg-custom-img-1 bg-no-repeat bg-cover bg-center flex justify-center items-center p-3">
         <div className="flex flex-col md:flex-row gap-12">
           <div
             className={`gameboard grid ${
