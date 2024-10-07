@@ -1,0 +1,13 @@
+[build]
+  publish = "dist/prototype/browser"
+  command = "npm run build"
+
+[[headers]]
+  for = "/*.ts"
+  [headers.values]
+    Content-Type = "application/typescript"
+
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200
